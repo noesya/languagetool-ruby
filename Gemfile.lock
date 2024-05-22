@@ -78,7 +78,6 @@ GEM
       rake
       rdoc
       semver
-    json (1.8.6)
     jwt (2.8.1)
       base64
     mime-types (3.5.2)
@@ -108,8 +107,7 @@ GEM
     rack (3.0.11)
     rake (13.2.1)
     rchardet (1.8.0)
-    rdoc (3.12.2)
-      json (~> 1.4)
+    rdoc (6.1.2.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -149,7 +147,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2)
   jeweler (~> 2)
-  rdoc (~> 3.12)
+  rdoc (~> 6.1)
   rest-client
   shoulda
   simplecov
